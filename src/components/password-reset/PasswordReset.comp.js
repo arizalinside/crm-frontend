@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 export const ResetPassword = ({ handleOnChange, handleOnResetSubmit, formSwitcher, email }) => {
-    return (
+  return (
         <div>
             <Container>
                 <Row>
@@ -31,17 +31,17 @@ export const ResetPassword = ({ handleOnChange, handleOnResetSubmit, formSwitche
 
                 <Row>
                     <Col>
-                        <a href="#!" onClick={() => formSwitcher('login')}>Login now?</a>
+                        <a href="#!" onClick={() => formSwitcher("login")}>Login now?</a>
                     </Col>
                 </Row>
             </Container>
         </div>
-    )
-}
+  );
+};
 
 ResetPassword.propTypes = {
-    handleOnChange: PropTypes.func.isRequired,
-    handleOnResetSubmit: PropTypes.func.isRequired,
-    formSwitcher: PropTypes.func.isRequired,
-    email: PropTypes.string.isRequired,
-}
+  handleOnChange: PropTypes.func.isRequired,
+  handleOnResetSubmit: PropTypes.func.isRequired,
+  formSwitcher: PropTypes.func.isRequired,
+  email: PropTypes.string.isRequired
+};

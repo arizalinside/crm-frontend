@@ -1,9 +1,9 @@
-import React from "react"
-import { Nav, Navbar } from "react-bootstrap"
-import logo from "../../assets/img/logo.png"
+import React from "react";
+import { Nav, Navbar } from "react-bootstrap";
+import logo from "../../assets/img/logo.png";
 
 export const Header = () => {
-    return (
+  return (
         <Navbar collapseOnSelect bg="info" variant="dark" expand="md">
             <Navbar.Brand>
                 <img src={logo} alt="logo" width="50px" />
@@ -17,5 +17,5 @@ export const Header = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    )
-}
+  );
+};

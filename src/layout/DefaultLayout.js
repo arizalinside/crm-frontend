@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Header } from "./partials/Header.comp";
 import { Footer } from "./partials/Footer.comp";
 
 export const DefaultLayout = ({ children }) => {
-    return (
+  return (
         <div className="default-layout">
 
-            <header className="header">
+            <header className="header mb-2">
             <Header />
             </header>
 
@@ -19,5 +20,5 @@ export const DefaultLayout = ({ children }) => {
             </footer>
 
         </div>
-    )
-}
+  );
+};

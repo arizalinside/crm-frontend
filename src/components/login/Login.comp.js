@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 export const LoginForm = ({ handleOnChange, handleOnSubmit, formSwitcher, email, pass }) => {
-    return (
+  return (
         <div>
             <Container>
                 <Row>
@@ -25,7 +25,7 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit, formSwitcher, email,
 
                             <Form.Group>
                                 <Form.Label>Password</Form.Label>
-                                <Form.Control 
+                                <Form.Control
                                 type="password"
                                 name="password"
                                 placeholder="password"
@@ -48,13 +48,13 @@ export const LoginForm = ({ handleOnChange, handleOnSubmit, formSwitcher, email,
                 </Row>
             </Container>
         </div>
-    )
-}
+  );
+};
 
 LoginForm.propTypes = {
-    handleOnChange: PropTypes.func.isRequired,
-    handleOnSubmit: PropTypes.func.isRequired,
-    formSwitcher: PropTypes.func.isRequired,
-    email: PropTypes.string.isRequired,
-    pass: PropTypes.string.isRequired
-}
+  handleOnChange: PropTypes.func.isRequired,
+  handleOnSubmit: PropTypes.func.isRequired,
+  formSwitcher: PropTypes.func.isRequired,
+  email: PropTypes.string.isRequired,
+  pass: PropTypes.string.isRequired
+};
