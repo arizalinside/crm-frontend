@@ -3,7 +3,25 @@
         "id": 1,
         "subjects": "Issue with Email",
         "status": "Client response pending",
-        "addedAt": "10-06-2021"
+        "addedAt": "10-06-2021",
+        "history": [
+            {
+                "date": "20-10-10",
+                "message": "sdasdasd",
+                "messageBy": "client"
+            },
+            {
+                "date": "20-10-10",
+                "message": "sdasdasd",
+                "messageBy": "operator"
+            },
+            {
+                "date": "20-10-10",
+                "message": "sdasdasd",
+                "messageBy": "client"
+            }
+        ]
+        
     },
     {
         "id": 2,
